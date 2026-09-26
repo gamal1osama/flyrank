@@ -1,0 +1,12 @@
+{
+  "assignment": "ML-07",
+  "lane": "Refresh / Content Opportunity Scoring",
+  "total_scored_rows": 30000,
+  "base_rate": 0.5420666666666667,
+  "precision_at_10": 0.4,
+  "precision_at_20": 0.35,
+  "precision_at_50": 0.32,
+  "top_50_false_alarms": 34,
+  "output_csv": "work/outputs/baseline_action_score.csv",
+  "leakage_audit": "PASSED (Zero label-derived or future features used)"
+}
