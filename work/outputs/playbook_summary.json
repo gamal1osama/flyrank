@@ -1,0 +1,44 @@
+{
+  "assignment": "ML-10",
+  "total_urls_evaluated": 30000,
+  "client_count": 32,
+  "action_distribution": {
+    "monitor": 12924,
+    "refresh": 10461,
+    "refresh_and_review_ctr": 6556,
+    "expand_and_refresh": 59
+  },
+  "reason_code_distribution": {
+    "low_risk_or_unproven": 12924,
+    "general_decay_risk": 8194,
+    "low_ctr_striking_distance": 6556,
+    "page_one_decay_risk": 2267,
+    "thin_visible_content": 59
+  },
+  "test_set_evaluation": {
+    "test_samples": 2325,
+    "test_clients": 6,
+    "base_rate": 0.3909677419354839,
+    "precision_at_10": {
+      "baseline_rules": 0.3,
+      "rf_pure_prob": 1.0,
+      "playbook_priority_score": 0.8
+    },
+    "precision_at_20": {
+      "baseline_rules": 0.15,
+      "rf_pure_prob": 0.9,
+      "playbook_priority_score": 0.85
+    },
+    "precision_at_50": {
+      "baseline_rules": 0.24,
+      "rf_pure_prob": 0.76,
+      "playbook_priority_score": 0.84
+    }
+  },
+  "guardrail_audit": {
+    "upward_trend_in_action_queue": 1865,
+    "missing_metadata_in_top50": 0,
+    "score_range_valid": true,
+    "status": "PASSED"
+  }
+}
