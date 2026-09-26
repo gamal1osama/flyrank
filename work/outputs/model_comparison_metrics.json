@@ -1,0 +1,44 @@
+{
+  "assignment": "ML-08",
+  "test_samples": 2325,
+  "test_clients": 6,
+  "base_rate": 0.3909677419354839,
+  "comparison": [
+    {
+      "Method / Model": "Baseline Rules (Week 4)",
+      "ROC-AUC": 0.6224839644981447,
+      "Avg Precision": 0.46755589047038837,
+      "Precision@20": 0.45,
+      "Precision@50": 0.34,
+      "Recall": NaN,
+      "F1": NaN
+    },
+    {
+      "Method / Model": "Logistic Regression",
+      "ROC-AUC": 0.7053709608248961,
+      "Avg Precision": 0.5246697517009724,
+      "Precision@20": 0.4,
+      "Precision@50": 0.36,
+      "Recall": 0.5511551155115512,
+      "F1": 0.562605277933745
+    },
+    {
+      "Method / Model": "Decision Tree",
+      "ROC-AUC": 0.7415203737887913,
+      "Avg Precision": 0.5753189989001579,
+      "Precision@20": 0.5,
+      "Precision@50": 0.56,
+      "Recall": 0.7161716171617162,
+      "F1": 0.6338851022395326
+    },
+    {
+      "Method / Model": "Random Forest (Capstone Model)",
+      "ROC-AUC": 0.7539140919741691,
+      "Avg Precision": 0.6322132619907674,
+      "Precision@20": 0.9,
+      "Precision@50": 0.76,
+      "Recall": 0.7414741474147415,
+      "F1": 0.642823080591321
+    }
+  ]
+}
